@@ -12,10 +12,24 @@
     <title>ifiyenia's portfolio</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
+        <img src="images/logo.png" alt="logo" class="header__nav-logo">
+        <h1>ifiyenia ellis hyde</h1>
+        <h2>&lt;/front end developer &gt;</h2>
         <nav class="header__nav">
-            <img src="images/logo.png" alt="logo" class="header__nav-logo">
-            <ul>
+
+
+            <ul class="header__nav-ul">
+                <li class="headere__nav-li"><a href="#"><h3>
+                    about me
+                </h3></a></li>
+                <li class="headere__nav-li"><a href="#"><h3>
+
+                </h3></a></li>
+                <li class="headere__nav-li"><a href="#"></a></li>
+                <li class="headere__nav-li"><a href="#"></a></li>
+                <li class="headere__nav-li"><a href="#"></a></li>
+                <li class="headere__nav-li"><a href="#"></a></li>
 
             </ul>
     
@@ -25,8 +39,11 @@
     <main class="main">
         <section class="main__about">
             <div class="main__about-info">
-                <h1 class="main__about-title">ifiyenia ellis hyde</h1>
-
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est incidunt rem aperiam molestias iste reiciendis laudantium aliquid quod doloremque ratione? Quasi culpa eum numquam earum similique, pariatur sapiente vitae hic.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quos maiores ratione. Rerum repellat atque deleniti, necessitatibus vitae quidem aut et saepe doloribus dicta culpa, voluptate quibusdam veniam quia odit!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi omnis facilis a. Voluptatibus quos similique ipsam? Nostrum, cum mollitia recusandae voluptate nemo magnam quasi nulla obcaecati ipsa enim explicabo.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam, hic voluptas minus optio tenetur rem dignissimos maxime debitis mollitia magni molestiae! Dicta reprehenderit, minima rerum delectus cupiditate pariatur possimus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolorum nulla id, ea quasi soluta consequuntur sapiente natus atque in voluptate magni! Explicabo impedit odio quis quam deleniti vero excepturi.
             </div>
 
             <div class="main__about-work">
@@ -66,6 +83,19 @@
     <footer class="footer">
 
     </footer>
+
+    <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("header").style.fontSize = "30px";
+          } else {
+            document.getElementById("header").style.fontSize = "90px";
+          }
+        }
+        </script>
 
 </body>
 </html>
